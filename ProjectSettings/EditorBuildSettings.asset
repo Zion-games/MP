@@ -6,21 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/2b-spawner.unity
-    guid: 82e03265661fb744ca5016882129701f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/3a-movement.unity
-    guid: 83f10077c5b6d9c43844212cb652efc2
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/3b-jump.unity
-    guid: 1018a862dac97554f856d02217a564c1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/4-network-properties.unity
-    guid: 776d63e2df3c5ce4e8425c6de4ced4fa
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/5-rpc.unity
+    path: Assets/Scenes/main_world 1.unity
+    guid: c4c61028e65c0a04387d0a910b646b34
+  - enabled: 0
+    path: Assets/Scenes/main_world.unity
     guid: 7967585ff09e1c440b045731214a4a93
   m_configObjects: {}

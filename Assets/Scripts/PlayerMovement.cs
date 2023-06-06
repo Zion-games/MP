@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 // From Fusion tutorial: https://doc.photonengine.com/fusion/current/tutorials/shared-mode-basics/3-movement-and-camera
 public class PlayerMovement : NetworkBehaviour {
-    [SerializeField] float speed = 2f;
+    [SerializeField] float speed = 5f;
 
     [SerializeField] InputAction moveAction;
     private void OnEnable() { moveAction.Enable(); }

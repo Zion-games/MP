@@ -199,7 +199,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8466928127406155534}
-  - component: {fileID: 8578859448791273544}
   m_Layer: 0
   m_Name: NestedParentArmature_Unpack
   m_TagString: Untagged
@@ -223,36 +222,9 @@ Transform:
   - {fileID: 4944427948316952054}
   - {fileID: 7936616602648612196}
   - {fileID: 5794255296107133297}
-  - {fileID: 4019056100145461037}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8578859448791273544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524427878643024443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjectInterest: 1
-  DefaultInterestGroups: []
-  DestroyWhenStateAuthorityLeaves: 0
-  AllowStateAuthorityOverride: 1
-  AoiPositionSource: {fileID: 0}
-  Flags: 2305
-  NetworkGuid:
-    RawGuidValue: 2be0d80449fb7c546bd9e8f31a077b84
-  NestedObjects: []
-  NetworkedBehaviours:
-  - {fileID: 688832163887267118}
-  - {fileID: 6467460711834454946}
-  - {fileID: 688832163887267116}
-  SimulationBehaviours: []
 --- !u!1 &575629295295580123
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +656,7 @@ GameObject:
   - component: {fileID: 2595180038077034206}
   - component: {fileID: 2595180038077034207}
   - component: {fileID: 2728148377100620481}
+  - component: {fileID: 6230925105194589709}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -791,6 +764,29 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6230925105194589709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595180038077034204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 1
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours: []
+  SimulationBehaviours: []
 --- !u!1 &2647411843176803112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,37 +1198,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 847360635521119226}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3324956252150852574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4019056100145461037}
-  m_Layer: 0
-  m_Name: 'UI_EventSystem (Missing Prefab with guid: f0271df749728104eac22c3d897fd8ce)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4019056100145461037
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3324956252150852574}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8466928127406155534}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3712180293566519612
 GameObject:
@@ -1714,6 +1679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4944427948316952054}
   - component: {fileID: 4944427948316952055}
+  - component: {fileID: 2749255958708817263}
   m_Layer: 0
   m_Name: PlayerFollowCamera
   m_TagString: Untagged
@@ -1775,6 +1741,29 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 4944427947718784050}
+--- !u!114 &2749255958708817263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944427948316951561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 1
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours: []
+  SimulationBehaviours: []
 --- !u!1 &5116648055115837374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,7 +2354,8 @@ GameObject:
   - component: {fileID: 688832163887267118}
   - component: {fileID: 6467460711834454946}
   - component: {fileID: 7309155744751212498}
-  - component: {fileID: 688832163887267116}
+  - component: {fileID: 4580752158782385813}
+  - component: {fileID: 5243916454356956791}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -2441,6 +2431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
   MoveSpeed: 2
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
@@ -2609,7 +2600,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &688832163887267116
+--- !u!114 &4580752158782385813
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2637,6 +2628,33 @@ MonoBehaviour:
     RotTeleportRadians: 1.5
   UseLegacySharedModeInterpolation: 0
   TargetInterpolationDelay: 0.03
+--- !u!114 &5243916454356956791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309155744751212510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 1
+  AllowStateAuthorityOverride: 0
+  AoiPositionSource: {fileID: 0}
+  Flags: 2305
+  NetworkGuid:
+    RawGuidValue: 2be0d80449fb7c546bd9e8f31a077b84
+  NestedObjects:
+  - {fileID: 6230925105194589709}
+  - {fileID: 2749255958708817263}
+  - {fileID: 0}
+  NetworkedBehaviours:
+  - {fileID: 0}
+  SimulationBehaviours: []
 --- !u!1 &7414666579240969090
 GameObject:
   m_ObjectHideFlags: 0
